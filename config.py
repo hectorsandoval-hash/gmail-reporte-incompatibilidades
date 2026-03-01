@@ -69,7 +69,7 @@ NOTIFICACIONES_JSON = os.path.join(REPORT_DIR, "notificaciones_enviadas.json")
 # MODO PRUEBA - Enviar correos SOLO al usuario de prueba
 # Cambiar a False para produccion
 # ============================================================================
-MODO_PRUEBA = True
+MODO_PRUEBA = False
 
 TEST_EMAIL = _config["test_email"]
 REPORTE_CC_EMAILS = _config["reporte_cc_emails"]
