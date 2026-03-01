@@ -1,0 +1,19 @@
+# Credenciales y configuracion sensible
+credentials.json
+token.json
+config_obras.json
+
+# Directorios temporales
+temp_files/
+reportes/
+logs/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
