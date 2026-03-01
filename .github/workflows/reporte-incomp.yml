@@ -2,8 +2,8 @@ name: Control Semanal de Reporte de Incompatibilidades
 
 on:
   schedule:
-    # 7:00 AM Peru = 12:00 UTC (Solo Lunes)
-    - cron: '0 12 * * 1'
+    # 7:12 AM Peru = 12:12 UTC (Solo Lunes)
+    - cron: '12 12 * * 1'
 
   # Permite ejecutar manualmente desde GitHub
   workflow_dispatch:
